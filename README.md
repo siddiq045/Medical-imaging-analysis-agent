@@ -52,28 +52,6 @@ Step 4 → You receive clear findings + a plain-English explanation
 
 ---
 
-## Run It Locally
-
-**Prerequisites:** Python 3.9+ and a Google Gemini API key
-```bash
-# 1. Clone the repo
-git clone https://github.com/your-username/medical-imaging-agent
-cd medical-imaging-agent
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Add your Gemini API key
-echo "GOOGLE_API_KEY=your_key_here" > .env
-
-# 4. Launch the app
-streamlit run ai_medical_imaging.py
-```
-
-Then open your browser at `http://localhost:8501`
-
----
-
 ## Project Structure
 
 medical-imaging-agent/
