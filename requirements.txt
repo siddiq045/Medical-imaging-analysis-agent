@@ -1,6 +1,6 @@
 streamlit==1.40.2
 agno>=2.2.10
-Pillow==10.0.0
+Pillow>=10.3.0
 duckduckgo-search==6.3.7
 google-genai
 ddgs
